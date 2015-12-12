@@ -1,0 +1,333 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.mat-clr{background-color: #ee6e73;}
+.mat-clr1{background-color: #D76368;}
+.full-btn{    
+    width: 98%;
+    margin-top: 20px;
+  }
+.full-btn:hover{background-color: #D76368;}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.nav-wrapper .left{position: relative;left: 50px;}
+
+nav ul a.border{  border-right: 1px solid #1A1A1A;
+  font-weight: 400;}
+
+
+ nav.top-menu,nav.search, nav .nav-wrapper i{
+  height: 50px;
+  line-height: 50px;
+ }
+
+.brand-logo img{
+
+  max-height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+  }
+ .page{margin-top: 55px;min-height: 700px;}
+
+nav .brand-logo{
+  left: 0%;
+-webkit-transform: translateX(0%);
+-moz-transform: translateX(0%);
+-ms-transform: translateX(0%);
+-o-transform: translateX(0%);
+transform: translateX(0%); 
+}
+
+ nav.top-menu .right .btn{
+    padding-left: 1em;
+  padding-right: 1em;
+  margin-right: 10px;
+}
+
+#search-content{display: none;}
+
+nav ul a{font-weight: 300;padding: 0 12px;font-size: 0.9em;}
+.short-detail p{margin-top: 0px;}
+.card .card-action a{color: #fff;padding-left: 1em;padding-right: 1em;}
+.card .card-action a:hover{color: #fff;}
+.card-content a{color: #000;}
+.card-content a:hover{color: #00b0ff;}
+.text-right{text-align: right;}
+.text-center{text-align:center;}
+.no-right-mar{margin-right: 0px!important;}
+footer.page-footer{padding-top: 0px;}
+
+.sidebar .card{box-shadow: none;}
+.sidebar .card .card-content{padding: 0px;}
+.sidebar .card .card-content h5{font-size: 1.2rem}
+
+.sidebar .card-image{height: 130px;  overflow: hidden;}
+
+.single-post.card .card-content {
+  padding: 10px 20px;
+  min-height: 210px;
+  }
+
+ .comment .title{font-weight: bold;}
+
+ .comment p{font-size: 14px;}
+
+ .card .card-action a.full{width: 48%;margin: 1%;float: left;}
+
+ .prof{background-color: #424242;
+  padding: 20px;
+  color: #fff;}
+
+  .prof img{  width: 100px;
+  height: 100px;}
+
+  .tabs .tab a{color: #00b0ff;}
+  .tabs .tab a:hover{color: #40c4ff;}
+  .tabs .indicator{background-color: #00b0ff;}
+  .mar-btm{margin-bottom: 20px;}
+.top-menu .right img{
+    width: 35px;
+  height: 35px;
+  margin-top: 7px;
+}
+ nav.top-menu .dropdown-content{top: 50px!important}
+  nav.top-menu .dropdown-content li > a,  nav.top-menu  .dropdown-content li > span{padding: 0.5em!important;font-size: 1em;}
+
+i.right
+{
+  margin-left: 3px;
+    font-size: 1.5rem!important;
+
+}
+.text-justify{text-align: justify;}
+.card-title a{color: #fff;font-weight: 400;font-size: 20px;}
+.card-title a:hover{color:#00b0ff;text-decoration: none;}
+.card .card-image .card-title{padding: 3vh;}
+
+.btn.submit i{
+  position: relative;
+  top: 5px;
+  }
+ .btn.submit{height: 45px;}
+
+.card .card-image .card-title{
+      width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.footer-copyright p{margin: 0;}
+
+.cat a.cat-link{
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+
+.cat a.cat-link.app{width: 200px;}
+.cat a.cat-link img{width: 100%;}
+.cat{text-align: center;}
+.cat .modal-content{padding: 0px;}
+.cat .modal-content h4{background-color:#ee6e73;padding: 15px;font-size: 20px;color: #fff;position: fixed;width: 100%; }
+.popup-top{
+  height: 55px;
+}
+.cat .modal-close{
+    color: #fff;
+    top: 7px;
+    position: absolute;
+    right: 0px;
+  }
+
+.static-nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 7777;
+  }
+
+
+.modal.bottom-sheet{z-index: 9999!important;}
+
+.lean-overlay{z-index: 8888!important;}
+
+
+@media all and (max-width: 767px) {
+
+.card .card-action a.full{margin: 0px;}
+.card-action .left{
+   float: none!important;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-action.text-center a.full, .card-action.text-center a.full-btn{
+  margin-left: 0;
+  margin-right: 0;
+}
+.card-action .right{
+   float: none!important;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-title a{font-size: 18px;}
+.card-action{text-align: center!important;}
+.card-action .text-right a{display: block;margin-left: 0px!important;margin-right: 0px!important;margin-bottom: 10px;}
+.card-action.text-center a.full,.card-action.text-center a.full-btn{width:100%;display: block;margin-left: 0px!important;margin-right: 0px!important;margin-bottom: 10px;}
+
+ nav .brand-logo {
+    left: 0!important;
+    transform: none!important;
+  }
+
+
+}
+
+.card .card-image{height: 225px;overflow: hidden;}
+
+.sing-btm-btn .btn{
+  display: block;
+  float: left;
+  width: 32%;
+  margin-right: 2%!important;
+}
+
+.sing-btm-btn .btn:last-child{
+  margin-right: 0px!important;
+}
+
+.single-right-btn .btn{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.min-single{
+  padding: 0px!important;
+  max-width: 800px;
+  margin: 0 auto!important;
+  display: block;
+  float: none!important;
+  margin-top: 25px!important;
+  margin-bottom: 25px!important;
+  
+}
+.clear-both{
+  clear: both;
+}
+
+.sing-btm-btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sing-btm-btn .btn{
+  width: 31.3333%;
+  margin-right: 1%!important;
+  margin-left: 1%;
+  display: block;
+  float: left;
+  
+
+}
+
+.single-btm-blk{
+
+  max-width: 825px;
+  margin: 0 auto!important;
+  display: block;
+  float: none!important;
+
+}
+
+.single-btm-blk-box{
+  width: 50%!important;
+  float: left;
+  display: block;
+}
+
+.single-btm-more{
+  max-width: 825px;
+}
+
+.help-image{
+  max-height: 35px;
+}
+
+.help p{
+  font-size: 15px;
+}
+
+/*@media all and (min-width: 767px) {
+  .sing-btm-btn .btn{
+    display: inline-block;
+    float: none;
+    max-width: 300px;
+
+}
+}
+@media all and (max-width: 767px) {
+
+  .sing-btm-btn .btn{
+  padding: 10px;
+  line-height: 18px;
+  display: block;
+  width: 100%;
+  max-width: auto;
+  margin-bottom: 10px;
+
+}
+
+
+}*/
+
+@media all and (max-width: 600px) {
+
+.card .card-image{height: 165px;overflow: hidden;}
+
+
+.sin-img{
+  margin-bottom: 15px;
+}
+
+.sing-btm-btn .btn{
+  margin-bottom: 15px!important;
+}
+
+.hidden-s{
+  display: none!important;
+}
+
+.sing-btm-btn .btn{
+  width: 100%;
+  margin-right: 0px!important;
+  margin-left: 0px;
+  display: block;
+  float: none;
+  
+
+}
+
+
+}
+.card .card-image img{
+  min-height:225px;
+}
+
+
+
+
