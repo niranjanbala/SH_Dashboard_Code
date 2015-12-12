@@ -10,7 +10,7 @@
 	  	"nesbot/carbon": "1.14"
 	},
 	"require-dev": {
-	  "way/generators": "~2.0"
+	  "way/generators": "~3.0"
 	},
 	"autoload": {
 		"classmap": [
